@@ -41,11 +41,29 @@ body {
     gap: 10px;
     border-radius: 2%;
     padding: 11px;
+    overflow: hidden;
 }
 
 .card .image {
     display: flex;
     align-items: center;
+}
+
+.card.dani .image {
+
+    position: relative;
+}
+
+.card.dani .quote {
+    position: absolute;
+    z-index: 10;
+    left: 58%;
+    top: -24px;
+    z-index: 10;
+    border: none;
+    height: 100px;
+    width: 100px;
+    opacity: 0.6;
 
 }
 
